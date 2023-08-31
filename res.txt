@@ -1,0 +1,44 @@
+Compilation Exception
+	Caused by token IDENTIFIER: begim (line 1) in <statement part>. Was expecting "begin" to start the <statement part>
+	Caused by token IDENTIFIER: begim (line 1). Was expecting begin
+
+Compilation Exception
+	Caused by token EOF (line 11) in <statement part> while parsing <statement list>
+	Caused by token EOF (line 11) in <statement list> while parsing "; <statement>"
+	Caused by token EOF (line 11) in <statement list> while parsing "; <statement>"
+	Caused by token EOF (line 11) in <statement list> while parsing <statement>
+	Caused by token EOF (line 11) in <statement> while parsing <if statement>
+	Caused by token EOF (line 11) in <if statement>. Was expecting "if" after "end" to close the <if statement>
+	Caused by token EOF (line 11). Was expecting if
+
+Compilation Exception
+	Caused by token end (line 7) in <statement part> while parsing <statement list>
+	Caused by token end (line 7) in <statement list> while parsing "; <statement>"
+	Caused by token end (line 7) in <statement list> while parsing "; <statement>"
+	Caused by token end (line 7) in <statement list> while parsing <statement>
+	Caused by token end (line 7) in <statement> while parsing <while statement>
+	Caused by token end (line 7) in <while statement> while parsing <statement list>
+	Caused by token end (line 7) in <statement list> while parsing "; <statement>"
+	Caused by token end (line 7) in <statement list> while parsing "; <statement>"
+	Caused by token end (line 7) in <statement list> while parsing <statement>
+	Caused by token end (line 7) in <statement>. Was expecting "identifier", "if", "while", "call", "do" or "for" to start a new <statement>
+
+Compilation Exception
+	Caused by token ; (line 7) in <statement part> while parsing <statement list>
+	Caused by token ; (line 7) in <statement list> while parsing "; <statement>"
+	Caused by token ; (line 7) in <statement list> while parsing "; <statement>"
+	Caused by token ; (line 7) in <statement list> while parsing <statement>
+	Caused by token ; (line 7) in <statement> while parsing <while statement>
+	Caused by token ; (line 7) in <while statement>. Was expecting "loop" after "end" to close off the <while statement>
+	Caused by token ; (line 7). Was expecting loop
+
+Compilation Exception
+	Caused by token else (line 4) in <statement part> while parsing <statement list>
+	Caused by token else (line 4) in <statement list> while parsing "; <statement>"
+	Caused by token else (line 4) in <statement list> while parsing "; <statement>"
+	Caused by token else (line 4) in <statement list> while parsing <statement>
+	Caused by token else (line 4) in <statement>. Was expecting "identifier", "if", "while", "call", "do" or "for" to start a new <statement>
+
+Compilation Exception
+	Caused by token call (line 12). Was expecting EOF
+
